@@ -1,0 +1,3 @@
+/var/www/projects/devdojo-microservices/core/src/main/java/academy/devdojo/youtube/core/model/AbstractEntity.java
+/var/www/projects/devdojo-microservices/core/src/main/java/academy/devdojo/youtube/core/model/Course.java
+/var/www/projects/devdojo-microservices/core/src/main/java/academy/devdojo/youtube/core/repository/CourseRepository.java
