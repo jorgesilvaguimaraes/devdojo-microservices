@@ -8,7 +8,6 @@
 		<version>1.0-SNAPSHOT</version>
 		<relativePath>../</relativePath>
 	</parent>
-	<groupId>academy.devdojo.youtube</groupId>
 	<artifactId>course</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Course</name>
@@ -27,10 +26,23 @@
 	</dependencies>
 
 	<build>
+		<finalName>course</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<executable>true</executable>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<source>11</source>
+					<target>11</target>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
