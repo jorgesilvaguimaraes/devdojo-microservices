@@ -18,13 +18,21 @@
         <module>core</module>
         <module>discovery</module>
         <module>gateway</module>
+        <module>auth</module>
     </modules>
 
     <properties>
         <spring-cloud.version>Greenwich.SR5</spring-cloud.version>
+        <nimbusds-jose.version>7.0</nimbusds-jose.version>
     </properties>
 
     <dependencies>
+
+        <dependency>
+            <groupId>com.nimbusds</groupId>
+            <artifactId>nimbus-jose-jwt</artifactId>
+            <version>${nimbusds-jose.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
