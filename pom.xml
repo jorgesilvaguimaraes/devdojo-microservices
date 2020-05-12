@@ -19,6 +19,7 @@
         <module>discovery</module>
         <module>gateway</module>
         <module>auth</module>
+        <module>token</module>
     </modules>
 
     <properties>
