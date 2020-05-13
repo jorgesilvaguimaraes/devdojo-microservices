@@ -25,9 +25,16 @@
     <properties>
         <spring-cloud.version>Greenwich.SR5</spring-cloud.version>
         <nimbusds-jose.version>7.0</nimbusds-jose.version>
+        <commons-lang3.version>3.8.1</commons-lang3.version>
     </properties>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons-lang3.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>com.nimbusds</groupId>

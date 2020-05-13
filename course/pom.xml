@@ -10,7 +10,7 @@
 	</parent>
 	<artifactId>course</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Course</name>
+	<name>course</name>
 	<description>Spring Boot Micro-services By DevDojo</description>
 
 	<properties>
