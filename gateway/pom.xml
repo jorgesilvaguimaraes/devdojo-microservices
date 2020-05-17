@@ -21,7 +21,6 @@
 	</properties>
 
 	<dependencies>
-
 		<dependency>
 			<groupId>academy.devdojo.youtube</groupId>
 			<artifactId>core</artifactId>

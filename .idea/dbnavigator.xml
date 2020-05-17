@@ -23,18 +23,11 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes>
-      <connection connection-id="a6df4b5b-6c2f-4064-861b-bddd97e1cdad">
-        <schema name="devdojo" object-types="function, table, view, column" />
-      </connection>
-    </loaded-nodes>
+    <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="a6df4b5b-6c2f-4064-861b-bddd97e1cdad">
       <console name="devdojo" type="STANDARD" schema="devdojo" session="Main"><![CDATA[SELECT * FROM application_user;
-COMMIT;
-
-update application_user set role = 'ADMIN' where id = 1;
 commit;]]></console>
     </connection>
   </component>

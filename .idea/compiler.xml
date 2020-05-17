@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/gateway/src/main/java/academy/devdojo/youtube/gateway/security/filter/GatewayJwtTokenAuthorizationFilter.java" />
+    </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="gateway" />
+        <module name="discovery" />
         <module name="token" />
         <module name="auth" />
+        <module name="gateway" />
         <module name="course" />
         <module name="core" />
-        <module name="discovery" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

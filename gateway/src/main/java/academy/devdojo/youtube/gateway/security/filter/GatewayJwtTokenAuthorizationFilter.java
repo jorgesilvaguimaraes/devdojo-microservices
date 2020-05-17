@@ -3,12 +3,9 @@ package academy.devdojo.youtube.gateway.security.filter;
 import academy.devdojo.youtube.core.property.JwtConfiguration;
 import academy.devdojo.youtube.security.filter.JwtTokenAuthorizationFilter;
 import academy.devdojo.youtube.security.token.converter.TokenConverter;
-import academy.devdojo.youtube.security.util.SecurityContextUtil;
 import com.netflix.zuul.context.RequestContext;
-import com.nimbusds.jose.proc.SecurityContext;
 import com.nimbusds.jwt.SignedJWT;
 import lombok.SneakyThrows;
-import org.apache.commons.lang3.StringUtils;
 
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;
@@ -17,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.validation.constraints.NotNull;
 import java.io.IOException;
 
-import static academy.devdojo.youtube.security.util.SecurityContextUtil.*;
+import static academy.devdojo.youtube.security.util.SecurityContextUtil.setSecurityContext;
 
 public class GatewayJwtTokenAuthorizationFilter extends JwtTokenAuthorizationFilter {
 
